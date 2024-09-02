@@ -1,0 +1,45 @@
+.comp-navbar {
+    *, 
+    *::after, 
+    *::before{
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        font-size: 62.5%;
+    }
+
+    body {
+        font-size: 1.6rem;
+        background: #EEEEEE;
+    }
+
+    .head{
+        background-color: #313131;
+        color: #EDF2F4;
+        
+        display: flex;
+        align-items: center;
+
+        gap: 50px;
+        height: 100px;
+        opacity: 0px;
+    }
+
+    .logo {
+        width: 64px;
+        height: 64px;
+        margin-top: 18px;
+        margin-left: 36px;
+        text-align: center;
+    }
+
+    .text-head{
+        font-family: Roboto;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 25.78px;
+        text-align: left;
+    }
+}
