@@ -11,7 +11,7 @@ export default function App() {
   let corSexta = '#F2F2F2';
   let corSetima = '#F6E448';
   let corOitava = '#FAF4C1';
-  let temData = true;
+  let temData = false;
 
   return (
     <div className="pagina-App">
