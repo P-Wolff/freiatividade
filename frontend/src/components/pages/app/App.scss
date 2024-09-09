@@ -1,0 +1,55 @@
+@import '../../colors';
+
+
+.pagina-App {
+
+    *, 
+    *::after, 
+    *::before{
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        font-size: 62.5%;
+    }
+
+    body {
+        font-size: 1.6rem;
+        background: #EEEEEE;
+        
+    }
+
+    h1,
+    h2,
+    h3,
+    p,
+    span {
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 23.44px;
+    }
+    
+    .text-main {
+        color: #313131;
+        font-family: Roboto;
+        
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 42.19px;
+    }
+
+    .main{
+        margin-top: 5em;
+        margin-left: 5em;
+
+    }
+
+    .cards {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+}
